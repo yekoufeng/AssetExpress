@@ -1,6 +1,8 @@
 ./docker_build.sh
-docker tag assetexpress:v1 122.11.58.163:5000/assetexpress:v1
-docker push 122.11.58.163:5000/assetexpress:v1
+#docker tag assetexpress:v1 122.11.58.163:5000/assetexpress:v1
+docker tag assetexpress:v1 211.159.201.45:5000/assetexpress:v1
+#docker push 122.11.58.163:5000/assetexpress:v1
+docker push 211.159.201.45:5000/assetexpress:v1
 cd mysql
 ./build.sh
 ./push.sh
